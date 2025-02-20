@@ -1,67 +1,58 @@
 [
     {
-        "by": "mabdullahkhalil",
-        "descendants": 1,
-        "id": 43112128,
+        "by": "ercharvat",
+        "descendants": 0,
+        "id": 43112325,
+        "score": 1,
+        "time": 1740039727,
+        "title": "TinyCompiler \u2013 a 500-ish lines of code compiler in a weekend",
+        "type": "story",
+        "url": "https://github.com/ssloy/tinycompiler",
+        "image": "/static/default.avif",
+        "theme": "\u7f16\u8bd1\u5668\u5f00\u53d1",
+        "summary": "\u4ecb\u7ecd\u5982\u4f55\u5728\u77ed\u65f6\u95f4\u5185\u7528\u7ea6500\u884c\u4ee3\u7801\u5b9e\u73b0\u4e00\u4e2a\u7b80\u6613\u7f16\u8bd1\u5668\u3002"
+    },
+    {
+        "by": "8mobile",
+        "descendants": 0,
+        "id": 43112307,
+        "score": 1,
+        "text": "Hi HN!<p>I\u2019m excited to share Convert Text, a lightweight tool I built to simplify the way we work with text. It\u2019s designed to transform text quickly and efficiently\u2014offline and privately.<p>The idea came from my own frustrations as a developer and occasional writer. I often needed to switch between multiple online tools for tasks like converting text to camelCase, cleaning up formatting, or counting characters. But those tools were slow, filled with ads, or required an internet connection. I wanted something faster, distraction-free, and more privacy-focused.<p>So I built Convert Text! It runs entirely offline, works instantly, and supports a range of use cases for developers, writers, and anyone who handles text daily.<p>Key Features:<p>100% Offline: Keeps your data private\u2014no internet required.\nComprehensive Format Support: Title Case, PascalCase, snake_case, CamelCase, and more.\nText Analysis: Count words, characters, sentences, and paragraphs at a glance.\nWeb Tools: HTML encoding&#x2F;decoding, URL formatting, Base64 conversion.\nDeveloper-Specific Tools: Clean formats (strip spaces, trim whitespace), and encoding options.\nBuilding this tool has been incredibly exciting, and I\u2019d love for the HN community to try it and share feedback. What do you think? Are there any features you\u2019d like to see added?<p>Thanks for checking it out!",
+        "time": 1740039544,
+        "title": "Show HN: Convert Text \u2013 Offline Text Transformation for Developers and Writers",
+        "type": "story",
+        "url": "https://apps.apple.com/us/app/convert-text-format-text/id1517217701",
+        "image": "data/img/https___apps.apple.com_assets_artwork_1x1-42817eea7ade52607a760cbee00d1495.gif",
+        "theme": "\u6587\u672c\u8f6c\u6362\u5de5\u5177",
+        "summary": "\u4ecb\u7ecd\u4e00\u6b3e\u79bb\u7ebf\u6587\u672c\u8f6c\u6362\u5de5\u5177\uff0c\u9002\u7528\u4e8e\u5f00\u53d1\u8005\u548c\u4f5c\u5bb6\uff0c\u652f\u6301\u591a\u79cd\u6587\u672c\u5904\u7406\u529f\u80fd\u3002"
+    },
+    {
+        "by": "DoctorAwal",
+        "descendants": 0,
+        "id": 43112229,
         "kids": [
-            43112130
+            43112230
         ],
-        "score": 1,
-        "time": 1740037624,
-        "title": "Chrome extension to save and organize AI conversations across multiple AI tools",
+        "score": 2,
+        "time": 1740038724,
+        "title": "Behavioral Version of LeetCode",
         "type": "story",
-        "url": "https://chromewebstore.google.com/detail/save-ai-chats/eanhhemabdopmopkdebdinhclhaelfej",
-        "image": "data/img/https___fonts.gstatic.com_s_i_productlogos_chrome_store_v7_192px.svg",
-        "theme": null,
-        "summary": null
+        "url": "https://www.memprep.com/",
+        "image": "/static/default.avif",
+        "theme": "\u8f6f\u4ef6\u5f00\u53d1",
+        "summary": "\u63a2\u8ba8LeetCode\u9898\u76ee\u4e2d\u7684\u884c\u4e3a\u6a21\u5f0f\u53ca\u5176\u5728\u8f6f\u4ef6\u5f00\u53d1\u4e2d\u7684\u5e94\u7528\u3002"
     },
     {
-        "by": "HanchoPan",
+        "by": "hez2000",
         "descendants": 0,
-        "id": 43112121,
+        "id": 43112199,
         "score": 1,
-        "time": 1740037544,
-        "title": "Hackers could attack Europes energy grid [video]",
+        "time": 1740038429,
+        "title": "Open-source TypeScript framework for LLMs to program themselves",
         "type": "story",
-        "url": "https://www.dw.com/en/how-hackers-could-attack-europes-energy-grid/video-71609172",
-        "theme": null,
-        "summary": null
-    },
-    {
-        "by": "nomilk",
-        "descendants": 0,
-        "id": 43112120,
-        "score": 1,
-        "time": 1740037538,
-        "title": "Basecamp removes all system tests",
-        "type": "story",
-        "url": "https://twitter.com/dhh/status/1892265453524803859",
-        "theme": null,
-        "summary": null
-    },
-    {
-        "by": "vednig",
-        "descendants": 0,
-        "id": 43112119,
-        "score": 1,
-        "time": 1740037528,
-        "title": "Looking Back at 2024 at Protocol Development",
-        "type": "story",
-        "url": "https://docs.bsky.app/blog/looking-back-2024",
-        "image": "data/img/https___docs.bsky.app_img_favicon.png",
-        "theme": null,
-        "summary": null
-    },
-    {
-        "by": "ingve",
-        "descendants": 0,
-        "id": 43112117,
-        "score": 1,
-        "time": 1740037492,
-        "title": "Shared (Unix) hosting and the problem of managing resource limits",
-        "type": "story",
-        "url": "https://utcc.utoronto.ca/~cks/space/blog/sysadmin/SharedHostingAndResourceLimitsII",
-        "theme": null,
-        "summary": null
+        "url": "https://github.com/The-Pocket-World/Pocket-Flow-Framework",
+        "image": "/static/default.avif",
+        "theme": "\u5f00\u6e90TypeScript\u6846\u67b6",
+        "summary": "\u7528\u4e8e\u5927\u578b\u8bed\u8a00\u6a21\u578b\u81ea\u6211\u7f16\u7a0b\u7684\u5f00\u6e90TypeScript\u6846\u67b6\u3002"
     }
 ]

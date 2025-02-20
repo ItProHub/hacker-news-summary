@@ -7,8 +7,7 @@ client = OpenAI(
   base_url="https://api.deepseek.com",
 )
 
-def analyze_article_with_deepseek(article_content):
-    return None, None
+def analyze_article_with_deepseek(article_content):    
     """
     使用 DeepSeek API 分析文章内容，判断主题是否与 IT 或软件开发相关，并生成概要。
     :param article_content: 文章的完整内容

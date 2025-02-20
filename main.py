@@ -63,6 +63,9 @@ def process_new_articles(limit=20):
     for article_id in new_article_ids:
         article = get_article_details(article_id)
 
+        if article.get("url") is None:
+            continue
+
         # 如果该文章已经存在，则跳过 DeepSeek 调用
         if article['url'] in existing_urls:
             print(f"Article {article['url']} already processed, skipping DeepSeek analysis.")
