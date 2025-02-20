@@ -1,58 +1,66 @@
 [
     {
-        "by": "ercharvat",
+        "by": "Brajeshwar",
         "descendants": 0,
-        "id": 43112325,
+        "id": 43112579,
         "score": 1,
-        "time": 1740039727,
-        "title": "TinyCompiler \u2013 a 500-ish lines of code compiler in a weekend",
+        "time": 1740041945,
+        "title": "Is It Time to Redefine Time?",
         "type": "story",
-        "url": "https://github.com/ssloy/tinycompiler",
+        "url": "https://www.scientificamerican.com/article/worlds-most-accurate-clocks-could-redefine-time/",
         "image": "/static/default.avif",
-        "theme": "\u7f16\u8bd1\u5668\u5f00\u53d1",
-        "summary": "\u4ecb\u7ecd\u5982\u4f55\u5728\u77ed\u65f6\u95f4\u5185\u7528\u7ea6500\u884c\u4ee3\u7801\u5b9e\u73b0\u4e00\u4e2a\u7b80\u6613\u7f16\u8bd1\u5668\u3002"
+        "theme": "\u65f6\u95f4\u91cd\u65b0\u5b9a\u4e49",
+        "summary": "\u63a2\u8ba8\u662f\u5426\u9700\u8981\u91cd\u65b0\u5b9a\u4e49\u65f6\u95f4\u6982\u5ff5\uff0c\u4ee5\u9002\u5e94\u73b0\u4ee3\u79d1\u6280\u548c\u793e\u4f1a\u53d1\u5c55\u7684\u9700\u6c42\u3002"
     },
     {
-        "by": "8mobile",
+        "by": "Brajeshwar",
         "descendants": 0,
-        "id": 43112307,
+        "id": 43112578,
         "score": 1,
-        "text": "Hi HN!<p>I\u2019m excited to share Convert Text, a lightweight tool I built to simplify the way we work with text. It\u2019s designed to transform text quickly and efficiently\u2014offline and privately.<p>The idea came from my own frustrations as a developer and occasional writer. I often needed to switch between multiple online tools for tasks like converting text to camelCase, cleaning up formatting, or counting characters. But those tools were slow, filled with ads, or required an internet connection. I wanted something faster, distraction-free, and more privacy-focused.<p>So I built Convert Text! It runs entirely offline, works instantly, and supports a range of use cases for developers, writers, and anyone who handles text daily.<p>Key Features:<p>100% Offline: Keeps your data private\u2014no internet required.\nComprehensive Format Support: Title Case, PascalCase, snake_case, CamelCase, and more.\nText Analysis: Count words, characters, sentences, and paragraphs at a glance.\nWeb Tools: HTML encoding&#x2F;decoding, URL formatting, Base64 conversion.\nDeveloper-Specific Tools: Clean formats (strip spaces, trim whitespace), and encoding options.\nBuilding this tool has been incredibly exciting, and I\u2019d love for the HN community to try it and share feedback. What do you think? Are there any features you\u2019d like to see added?<p>Thanks for checking it out!",
-        "time": 1740039544,
-        "title": "Show HN: Convert Text \u2013 Offline Text Transformation for Developers and Writers",
+        "time": 1740041933,
+        "title": "Scientists Are Pulling Fresh Water from Fog",
         "type": "story",
-        "url": "https://apps.apple.com/us/app/convert-text-format-text/id1517217701",
-        "image": "data/img/https___apps.apple.com_assets_artwork_1x1-42817eea7ade52607a760cbee00d1495.gif",
-        "theme": "\u6587\u672c\u8f6c\u6362\u5de5\u5177",
-        "summary": "\u4ecb\u7ecd\u4e00\u6b3e\u79bb\u7ebf\u6587\u672c\u8f6c\u6362\u5de5\u5177\uff0c\u9002\u7528\u4e8e\u5f00\u53d1\u8005\u548c\u4f5c\u5bb6\uff0c\u652f\u6301\u591a\u79cd\u6587\u672c\u5904\u7406\u529f\u80fd\u3002"
+        "url": "https://scitechdaily.com/scientists-are-pulling-fresh-water-from-fog-and-its-changing-everything/",
+        "theme": "\u6c34\u8d44\u6e90\u5f00\u53d1\u6280\u672f",
+        "summary": "\u79d1\u5b66\u5bb6\u5f00\u53d1\u65b0\u6280\u672f\u4ece\u96fe\u4e2d\u63d0\u53d6\u6de1\u6c34\uff0c\u89e3\u51b3\u5e72\u65f1\u5730\u533a\u6c34\u8d44\u6e90\u77ed\u7f3a\u95ee\u9898\u3002"
     },
     {
-        "by": "DoctorAwal",
+        "by": "Brajeshwar",
         "descendants": 0,
-        "id": 43112229,
-        "kids": [
-            43112230
-        ],
-        "score": 2,
-        "time": 1740038724,
-        "title": "Behavioral Version of LeetCode",
+        "id": 43112570,
+        "score": 1,
+        "time": 1740041863,
+        "title": "Apple's first in-house iPhone modem is the C1",
         "type": "story",
-        "url": "https://www.memprep.com/",
+        "url": "https://www.theverge.com/news/615314/apple-iphone-16e-c1-cell-modem-in-house-5g",
         "image": "/static/default.avif",
-        "theme": "\u8f6f\u4ef6\u5f00\u53d1",
-        "summary": "\u63a2\u8ba8LeetCode\u9898\u76ee\u4e2d\u7684\u884c\u4e3a\u6a21\u5f0f\u53ca\u5176\u5728\u8f6f\u4ef6\u5f00\u53d1\u4e2d\u7684\u5e94\u7528\u3002"
+        "theme": "\u82f9\u679c\u81ea\u7814\u8c03\u5236\u89e3\u8c03\u5668",
+        "summary": "\u82f9\u679c\u63a8\u51fa\u9996\u6b3e\u81ea\u7814iPhone\u8c03\u5236\u89e3\u8c03\u5668C1\uff0c\u65e8\u5728\u63d0\u5347\u8bbe\u5907\u6027\u80fd\u548c\u81ea\u4e3b\u6027\u3002"
     },
     {
-        "by": "hez2000",
+        "by": "eddieweng",
         "descendants": 0,
-        "id": 43112199,
+        "id": 43112561,
         "score": 1,
-        "time": 1740038429,
-        "title": "Open-source TypeScript framework for LLMs to program themselves",
+        "time": 1740041794,
+        "title": "Wham",
         "type": "story",
-        "url": "https://github.com/The-Pocket-World/Pocket-Flow-Framework",
-        "image": "/static/default.avif",
-        "theme": "\u5f00\u6e90TypeScript\u6846\u67b6",
-        "summary": "\u7528\u4e8e\u5927\u578b\u8bed\u8a00\u6a21\u578b\u81ea\u6211\u7f16\u7a0b\u7684\u5f00\u6e90TypeScript\u6846\u67b6\u3002"
+        "url": "https://huggingface.co/microsoft/wham",
+        "image": "data/img/https___huggingface.co_front_assets_huggingface_logo-noborder.svg",
+        "theme": "\u7a7a",
+        "summary": "\u7a7a"
+    },
+    {
+        "by": "luu",
+        "descendants": 0,
+        "id": 43112555,
+        "score": 1,
+        "time": 1740041745,
+        "title": "The glibc 2.41 update has been causing problems for Linux gaming",
+        "type": "story",
+        "url": "https://www.gamingonlinux.com/2025/02/the-glibc-2-41-update-has-been-causing-problems-for-linux-gaming/",
+        "image": "data/img/https___www.gamingonlinux.com_templates_default_images_logos_icon_mouse.png",
+        "theme": "Linux \u6e38\u620f\u95ee\u9898",
+        "summary": "glibc 2.41 \u66f4\u65b0\u5bfc\u81f4 Linux \u6e38\u620f\u51fa\u73b0\u95ee\u9898\u3002"
     }
 ]

@@ -7,7 +7,7 @@ client = OpenAI(
   base_url="https://api.deepseek.com",
 )
 
-def analyze_article_with_deepseek(article_content):    
+def analyze_article_with_deepseek(article_content):
     """
     使用 DeepSeek API 分析文章内容，判断主题是否与 IT 或软件开发相关，并生成概要。
     :param article_content: 文章的完整内容
@@ -18,7 +18,7 @@ def analyze_article_with_deepseek(article_content):
         response = client.chat.completions.create(
             model="deepseek-chat",
             messages=[
-                {"role": "system", "content": "你是一个专业的文章分类和摘要生成助手。请帮我分析如下文章，如果文章内容是关于IT或软件开发的，那么请告诉我文章的主题和概要，生成的概要不要超过50个字。返回格式为：主题: xxx 概要: xxx。如果文章内容不是关于IT或软件开发的，那么请直接返回空。"},
+                {"role": "system", "content": "你是一个专业的文章分类和摘要生成助手。请帮我分析如下文章，如果文章内容是关于IT或软件开发的，那么请告诉我文章的主题和概要，生成的概要控制在50个字左右。返回格式为：主题: xxx 概要: xxx。如果文章内容不是关于IT或软件开发的，那么请直接返回空。"},
                 {"role": "user", "content": article_content}
             ],
             max_tokens=1000,
