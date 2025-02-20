@@ -43,4 +43,4 @@ jobs:
         # 设置 gh-pages 分支
         target_branch: gh-pages
         # 设置 GitHub token（需要设置在 GitHub Secrets 中）
-        token: ${{ secrets.GITHUB_TOKEN }}
+        github_token: ${{ secrets.GITHUB_TOKEN }}
