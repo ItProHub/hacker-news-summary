@@ -1,0 +1,67 @@
+[
+    {
+        "by": "mabdullahkhalil",
+        "descendants": 1,
+        "id": 43112128,
+        "kids": [
+            43112130
+        ],
+        "score": 1,
+        "time": 1740037624,
+        "title": "Chrome extension to save and organize AI conversations across multiple AI tools",
+        "type": "story",
+        "url": "https://chromewebstore.google.com/detail/save-ai-chats/eanhhemabdopmopkdebdinhclhaelfej",
+        "image": "data/img/https___fonts.gstatic.com_s_i_productlogos_chrome_store_v7_192px.svg",
+        "theme": null,
+        "summary": null
+    },
+    {
+        "by": "HanchoPan",
+        "descendants": 0,
+        "id": 43112121,
+        "score": 1,
+        "time": 1740037544,
+        "title": "Hackers could attack Europes energy grid [video]",
+        "type": "story",
+        "url": "https://www.dw.com/en/how-hackers-could-attack-europes-energy-grid/video-71609172",
+        "theme": null,
+        "summary": null
+    },
+    {
+        "by": "nomilk",
+        "descendants": 0,
+        "id": 43112120,
+        "score": 1,
+        "time": 1740037538,
+        "title": "Basecamp removes all system tests",
+        "type": "story",
+        "url": "https://twitter.com/dhh/status/1892265453524803859",
+        "theme": null,
+        "summary": null
+    },
+    {
+        "by": "vednig",
+        "descendants": 0,
+        "id": 43112119,
+        "score": 1,
+        "time": 1740037528,
+        "title": "Looking Back at 2024 at Protocol Development",
+        "type": "story",
+        "url": "https://docs.bsky.app/blog/looking-back-2024",
+        "image": "data/img/https___docs.bsky.app_img_favicon.png",
+        "theme": null,
+        "summary": null
+    },
+    {
+        "by": "ingve",
+        "descendants": 0,
+        "id": 43112117,
+        "score": 1,
+        "time": 1740037492,
+        "title": "Shared (Unix) hosting and the problem of managing resource limits",
+        "type": "story",
+        "url": "https://utcc.utoronto.ca/~cks/space/blog/sysadmin/SharedHostingAndResourceLimitsII",
+        "theme": null,
+        "summary": null
+    }
+]
