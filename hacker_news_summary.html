@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacker News Summary</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .article {
+            display: flex;
+            margin-bottom: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .article img {
+            width: 200px;
+            object-fit: contain;
+            margin-right: 20px;
+        }
+        .article-content {
+            padding: 20px;
+            flex: 1;
+        }
+        .article-title {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .article-description {
+            color: #555;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hacker News Summary</h1>
+    <div class="articles" id="articles-container">
+        <!-- Articles will be dynamically inserted here -->
+    </div>
+
+    <script>
+        // This function will load the JSON data and render the articles
+        function renderArticles() {
+            // Fetch the articles from the JSON file
+            fetch('data/articles.json')
+                .then(response => response.json())
+                .then(data => {
+                    const articlesContainer = document.getElementById('articles-container');
+                    articlesContainer.innerHTML = '';  // Clear any existing content
+
+                    // Loop through each article and generate its HTML content
+                    data.forEach(article => {
+                        const articleHtml = `
+                            <div class="article">
+                                <img src="${article.image}" alt="Article Image">
+                                <div class="article-content">
+                                    <a href="${article.url}" class="article-title" target="_blank">${article.theme}</a>
+                                    <p class="article-description">${article.summary}</p>
+                                    <p><strong>作者:</strong> ${article.by}</p>
+                                    <p><strong>发布时间:</strong> ${new Date(article.time * 1000).toLocaleString()}</p>
+                                </div>
+                            </div>
+                        `;
+                        articlesContainer.innerHTML += articleHtml;  // Add the new article to the container
+                    });
+                })
+                .catch(error => console.error('Error fetching articles:', error));
+        }
+
+        // Call renderArticles when the page is loaded
+        window.onload = renderArticles;
+    </script>
+</body>
+</html>
