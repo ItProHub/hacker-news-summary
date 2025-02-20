@@ -41,7 +41,7 @@ class HTMLGenerator:
         """
 
         # 检查HTML文件是否存在，如果存在，则读取文件内容并追加新文章
-        file_path = 'hacker_news_summary.html'
+        file_path = 'index.html'
         if os.path.exists(file_path):
             with open(file_path, 'r', encoding='utf-8') as file:
                 existing_content = file.read()

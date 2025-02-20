@@ -5,7 +5,6 @@ import uuid
 from datetime import datetime
 from deepseek_client import analyze_article_with_deepseek
 from image_downloader import extract_image_url, process_image_url  # 导入图片下载模块
-from html_generator import HTMLGenerator  # 导入 HTMLGenerator 类
 
 # 获取Hacker News上的文章ID，支持分页
 def get_hacker_news_article_ids(limit=30):

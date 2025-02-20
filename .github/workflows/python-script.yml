@@ -1,4 +1,4 @@
-name: Run Python Script and Deploy to GitHub Pages
+name: Delpoy
 
 on:
   schedule:
