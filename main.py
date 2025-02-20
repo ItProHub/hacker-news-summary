@@ -66,6 +66,9 @@ def process_new_articles(limit=20):
         if article.get("url") is None:
             continue
 
+        article['score'] = article.get('score', 0) 
+        article['descendants'] = article.get('descendants', 0) 
+
         # 如果该文章已经存在，则跳过 DeepSeek 调用
         if article['url'] in existing_urls:
             print(f"Article {article['url']} already processed, skipping DeepSeek analysis.")
