@@ -33,7 +33,7 @@ jobs:
         python main.py  # 执行你的 Python 脚本
 
     - name: Debug token
-      run: echo "Token: ${{ secrets.GITHUB_TOKEN }}"
+      run: echo "Token： ${{ secrets.GITHUB_TOKEN }}"
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
