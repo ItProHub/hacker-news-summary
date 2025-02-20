@@ -89,7 +89,7 @@ def process_new_articles(limit=20):
     return new_articles
 
 def main():
-    limit = 30  # 每次获取30篇文章
+    limit = 5  # 每次获取30篇文章
    
     new_articles = process_new_articles(limit=limit)
 
